@@ -46,14 +46,14 @@ The stories marked Done satisfy the Definition of Done below.
 
   $$\frac{\sum_i spent_{task_i}}{\sum_i estimation_{task_i}} - 1
   = \frac{52.4167}{53.0000} - 1
-  = \mathbf{-1.10\%}$$
+  = \mathbf{-0.0110}$$
 
 - Absolute relative task estimation error:
 
   $$\frac{1}{n}\sum_{i=1}^{n}
   \left|\frac{spent_{task_i}}{estimation_{task_i}}-1\right|
   = \frac{10.9861}{30}
-  = \mathbf{36.62\%}$$
+  = \mathbf{0.3662}$$
 
 ## QUALITY MEASURES
 

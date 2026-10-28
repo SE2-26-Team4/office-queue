@@ -27,8 +27,8 @@ The retrospective includes the following sections:
 
 | Measure | Committed / planned | Done / spent |
 |---|---:|---:|
-| Stories | 2 | 2 marked Done in YouTrack |
-| Story points | 13 | 13 marked Done in YouTrack |
+| Stories | 2 | 2 Done |
+| Story points | 13 | 13 Done |
 | Team effort | 53.00 h estimated | 52 h 25 min spent |
 
 The stories marked Done satisfy the Definition of Done below.
@@ -99,14 +99,14 @@ The stories marked Done satisfy the Definition of Done below.
 
   $$\frac{\sum_i spent_{task_i}}{\sum_i estimation_{task_i}} - 1
   = \frac{52.4167}{53.0000} - 1
-  = \mathbf{-1.10\%}$$
+  = \mathbf{-0.0110}$$
 
 - Absolute relative task estimation error:
 
   $$\frac{1}{n}\sum_{i=1}^{n}
   \left|\frac{spent_{task_i}}{estimation_{task_i}}-1\right|
   = \frac{10.9861}{30}
-  = \mathbf{36.62\%}$$
+  = \mathbf{0.3662}$$
 
 **Observation:** The overall effort was 35 minutes below the estimate. Get Ticket took about 3 h 40 min more than estimated, while Next Customer took about 3 h 40 min less, so the story-level differences largely offset each other. Some members implemented their tasks and also checked details and links with other tasks. Others focused mainly on their assigned tasks. These different ways of working contributed to the difference in time spent on the two stories.
 
@@ -117,14 +117,14 @@ The stories marked Done satisfy the Definition of Done below.
 - Total estimation error ratio:
 
   $$\frac{19.9167}{20.5000}-1
-  = \mathbf{-2.85\%}$$
+  = \mathbf{-0.0285}$$
 
 - Average absolute relative task estimation error:
 
   $$\frac{1}{8}\sum_{i=1}^{8}
   \left|\frac{spent_{task_i}}{estimation_{task_i}}-1\right|
   = \frac{1.7500}{8}
-  = \mathbf{21.88\%}$$
+  = \mathbf{0.2188}$$
 
 **Observation:** Technical tasks took about 35 minutes less than estimated overall. The small total difference reflects task times that were both above and below their estimates.
 
@@ -134,11 +134,11 @@ The stories marked Done satisfy the Definition of Done below.
 
 - Total estimation error ratio:
 
-  $$\frac{18.6667}{15.0000}-1=\mathbf{+24.44\%}$$
+  $$\frac{18.6667}{15.0000}-1=\mathbf{+0.2444}$$
 
 - Average absolute relative task estimation error:
 
-  $$\frac{4.9167}{12}=\mathbf{40.97\%}$$
+  $$\frac{4.9167}{12}=\mathbf{0.4097}$$
 
 **Observation:** Get Ticket took about 3 h 40 min more than estimated. The selection UI, confirmation UI, code review, and integration/E2E testing took longer than planned. Shorter times on other tasks partly offset these overruns.
 
@@ -148,11 +148,11 @@ The stories marked Done satisfy the Definition of Done below.
 
 - Total estimation error ratio:
 
-  $$\frac{13.8333}{17.5000}-1=\mathbf{-20.95\%}$$
+  $$\frac{13.8333}{17.5000}-1=\mathbf{-0.2095}$$
 
 - Average absolute relative task estimation error:
 
-  $$\frac{4.3194}{10}=\mathbf{43.19\%}$$
+  $$\frac{4.3194}{10}=\mathbf{0.4319}$$
 
 **Observation:** Next Customer required about 3 h 40 min less than estimated. Queue retrieval and unit testing took less time than planned, while queue selection and code review took longer. The shorter times on some tasks partly offset the overruns on others.
 
